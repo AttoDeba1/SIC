@@ -1,10 +1,7 @@
 language: java
-matrix:
-  include:
-  - java: "1.7"
-  - java: "1.6"
-  - java: "1.9"
-  - java: "1.5"
-  - java: "1.4"
+jdk:
+  - oraclejdk8
+  - oraclejdk9
+  - openjdk7
 script:
   - javac src/*.java
