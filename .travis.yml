@@ -1,4 +1,8 @@
 language: java
-
+matrix:
+  include:
+  - java: "1.7"
+  - java: "1.6"
+  - java: "1.9"
 script:
   - javac src/*.java
