@@ -3,5 +3,8 @@ jdk:
   - oraclejdk8
   - oraclejdk9
   - openjdk7
+  - openjdk6
+  - openjdk5
+  - openjdk4
 script:
   - javac src/*.java
