@@ -1,3 +1,4 @@
 language: java
 
-script: javac Main.java
+script:
+  - javac src/Main.java
